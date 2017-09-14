@@ -1,0 +1,139 @@
+Sep 14 21:14:41 INFO [14/Sep/2017:21:14:41] ENGINE Bus STARTING
+Sep 14 21:14:41 INFO [14/Sep/2017:21:14:41] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:14:41 INFO [14/Sep/2017:21:14:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:14:42 ERROR [14/Sep/2017:21:14:42] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000000003A86DA0>>
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 215, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python36\lib\site-packages\cherrypy\_cpserver.py", line 171, in start
+    super(Server, self).start()
+  File "C:\Python36\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "C:\Python36\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 80 not free on 0.0.0.0.
+
+Sep 14 21:14:42 ERROR [14/Sep/2017:21:14:42] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 253, in start
+    self.publish('start')
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 233, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 80 not free on 0.0.0.0.',)
+
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Bus STOPPING
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Stopped thread 'Autoreloader'.
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Stopped thread '_TimeoutMonitor'.
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Bus STOPPED
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Bus EXITING
+Sep 14 21:14:42 INFO [14/Sep/2017:21:14:42] ENGINE Bus EXITED
+Sep 14 21:15:16 INFO [14/Sep/2017:21:15:16] ENGINE Bus STARTING
+Sep 14 21:15:16 INFO [14/Sep/2017:21:15:16] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:15:16 INFO [14/Sep/2017:21:15:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:15:17 ERROR [14/Sep/2017:21:15:17] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000000003A86438>>
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 215, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python36\lib\site-packages\cherrypy\_cpserver.py", line 171, in start
+    super(Server, self).start()
+  File "C:\Python36\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "C:\Python36\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 80 not free on 0.0.0.0.
+
+Sep 14 21:15:17 ERROR [14/Sep/2017:21:15:17] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 253, in start
+    self.publish('start')
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 233, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 80 not free on 0.0.0.0.',)
+
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Bus STOPPING
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Stopped thread 'Autoreloader'.
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Stopped thread '_TimeoutMonitor'.
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Bus STOPPED
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Bus EXITING
+Sep 14 21:15:17 INFO [14/Sep/2017:21:15:17] ENGINE Bus EXITED
+Sep 14 21:15:40 INFO [14/Sep/2017:21:15:40] ENGINE Bus STARTING
+Sep 14 21:15:40 INFO [14/Sep/2017:21:15:40] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:15:40 INFO [14/Sep/2017:21:15:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:15:41 ERROR [14/Sep/2017:21:15:41] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000000003A86EB8>>
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 215, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python36\lib\site-packages\cherrypy\_cpserver.py", line 171, in start
+    super(Server, self).start()
+  File "C:\Python36\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "C:\Python36\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 80 not free on 0.0.0.0.
+
+Sep 14 21:15:41 ERROR [14/Sep/2017:21:15:41] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 253, in start
+    self.publish('start')
+  File "C:\Python36\lib\site-packages\cherrypy\process\wspbus.py", line 233, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 80 not free on 0.0.0.0.',)
+
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Bus STOPPING
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Stopped thread '_TimeoutMonitor'.
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Stopped thread 'Autoreloader'.
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Bus STOPPED
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Bus EXITING
+Sep 14 21:15:41 INFO [14/Sep/2017:21:15:41] ENGINE Bus EXITED
+Sep 14 21:16:09 INFO [14/Sep/2017:21:16:09] ENGINE Bus STARTING
+Sep 14 21:16:09 INFO [14/Sep/2017:21:16:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:16:09 INFO [14/Sep/2017:21:16:09] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:16:09 INFO [14/Sep/2017:21:16:09] ENGINE Serving on http://0.0.0.0
+Sep 14 21:16:09 INFO [14/Sep/2017:21:16:09] ENGINE Bus STARTED
+Sep 14 21:16:15 INFO 192.168.2.113 - - [14/Sep/2017:21:16:15] "GET /single HTTP/1.1" 200 - "" ""
+Sep 14 21:16:23 INFO 192.168.2.113 - - [14/Sep/2017:21:16:23] "GET /touch HTTP/1.1" 200 - "" ""
+Sep 14 21:16:36 INFO 192.168.2.113 - - [14/Sep/2017:21:16:36] "GET /touch HTTP/1.1" 200 - "" ""
+Sep 14 21:16:49 INFO 192.168.2.113 - - [14/Sep/2017:21:16:49] "GET /long HTTP/1.1" 200 - "" ""
+Sep 14 21:16:54 INFO 192.168.2.113 - - [14/Sep/2017:21:16:54] "GET /double HTTP/1.1" 200 - "" ""
+Sep 14 21:17:06 INFO 192.168.2.113 - - [14/Sep/2017:21:17:06] "GET /single HTTP/1.1" 200 - "" ""
+Sep 14 21:17:47 INFO [14/Sep/2017:21:17:47] ENGINE Bus STARTING
+Sep 14 21:17:47 INFO [14/Sep/2017:21:17:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:17:47 INFO [14/Sep/2017:21:17:47] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:17:47 INFO [14/Sep/2017:21:17:47] ENGINE Serving on http://0.0.0.0
+Sep 14 21:17:47 INFO [14/Sep/2017:21:17:47] ENGINE Bus STARTED
+Sep 14 21:17:53 ERROR [14/Sep/2017:21:17:53] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Users\tgdscm41\PycharmProjects\myStromButton\library\httpd.py", line 19, in single
+    self._log.debug('httpd received Single')
+AttributeError: type object 'logger' has no attribute 'debug'
+Sep 14 21:17:53 INFO [14/Sep/2017:21:17:53] HTTP 
+Request Headers:
+  Remote-Addr: 192.168.2.113
+  HOST: 192.168.2.110:80
+  CONNECTION: close
+Sep 14 21:17:53 INFO 192.168.2.113 - - [14/Sep/2017:21:17:53] "GET /single HTTP/1.1" 500 1452 "" ""
+Sep 14 21:18:34 INFO [14/Sep/2017:21:18:34] ENGINE Bus STARTING
+Sep 14 21:18:34 INFO [14/Sep/2017:21:18:34] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:18:34 INFO [14/Sep/2017:21:18:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:18:35 INFO [14/Sep/2017:21:18:35] ENGINE Serving on http://0.0.0.0
+Sep 14 21:18:35 INFO [14/Sep/2017:21:18:35] ENGINE Bus STARTED
+Sep 14 21:18:40 DEBUG httpd received Single
+Sep 14 21:18:40 INFO 192.168.2.113 - - [14/Sep/2017:21:18:40] "GET /single HTTP/1.1" 200 - "" ""
+Sep 14 21:19:11 DEBUG httpd received Single
+Sep 14 21:19:11 INFO 192.168.2.113 - - [14/Sep/2017:21:19:11] "GET /single HTTP/1.1" 200 - "" ""
+Sep 14 21:19:37 DEBUG httpd received Single
+Sep 14 21:19:37 INFO 192.168.2.113 - - [14/Sep/2017:21:19:37] "GET /single HTTP/1.1" 200 - "" ""
+Sep 14 21:23:04 INFO [14/Sep/2017:21:23:04] ENGINE Bus STARTING
+Sep 14 21:23:04 INFO [14/Sep/2017:21:23:04] ENGINE Started monitor thread 'Autoreloader'.
+Sep 14 21:23:04 INFO [14/Sep/2017:21:23:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+Sep 14 21:23:05 INFO [14/Sep/2017:21:23:05] ENGINE Serving on http://0.0.0.0
+Sep 14 21:23:05 INFO [14/Sep/2017:21:23:05] ENGINE Bus STARTED
